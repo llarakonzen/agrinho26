@@ -57,3 +57,50 @@
     </div>
 </body>
 </html>
+ 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroForte - Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <header class="cabecalho">
+            <button class="voltar" onclick="window.location.href='home.html'">←</button>
+            <h1>AgroForte</h1>
+        </header>
+
+        <main class="conteudo-login">
+            <h2>Bem-vindo de volta</h2>
+            <p class="subtitulo-login">Entre para acessar sua conta</p>
+
+            <form class="form-login">
+                <div class="campo">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" placeholder="seu@email.com" required>
+                </div>
+
+                <div class="campo">
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" placeholder="••••" required>
+                </div>
+
+                <a href="#" class="esqueci-senha">Esqueci minha senha</a>
+
+                <button type="submit" class="botao-entrar">Entrar</button>
+            </form>
+
+            <div class="divisor">
+                <span>ou</span>
+            </div>
+
+            <button class="botao-cadastrar" onclick="window.location.href='cadastro.html'">
+                Criar nova conta
+            </button>
+        </main>
+    </div>
+</body>
+</html>
